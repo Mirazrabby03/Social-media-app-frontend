@@ -1,0 +1,54 @@
+.navbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbarLeft{
+    flex: 8;
+    
+}
+.logo{
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+
+}
+/* .navbarCenter{
+    flex: 5;
+    
+} */
+.navbarRight{
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    
+}
+.navbarLink{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.navbarImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.navbarUsername{
+    font-weight: 500;
+    margin: 0 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+    
+}
