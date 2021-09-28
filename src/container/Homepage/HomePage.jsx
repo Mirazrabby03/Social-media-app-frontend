@@ -18,7 +18,7 @@ export const HomePage = (props) => {
     <Feed>
       
      </Feed>
-    <Rightbar/>
+    {/* <Rightbar/> */}
     
     </div>
    
